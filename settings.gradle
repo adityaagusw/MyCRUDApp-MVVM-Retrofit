@@ -1,0 +1,2 @@
+rootProject.name='CRUD MVVM Retrofit'
+include ':app'
