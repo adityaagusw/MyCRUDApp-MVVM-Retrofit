@@ -29,7 +29,7 @@ interface ApiService {
     ): Call<WrappedResponse<Recipe>>
 
     @FormUrlEncoded
-    @POST("api/post/{id}")
+    @POST("api/post/update/{id}")
     fun updateRecipe(
         @Header("Authorization") token: String,
         @Path("id") id: String,
